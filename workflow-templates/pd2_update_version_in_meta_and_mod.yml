@@ -1,5 +1,6 @@
 name: Create update for SuperBLT mod via version change
-
+permissions:
+  contents: write
 on: 
   workflow_dispatch:
     inputs:
