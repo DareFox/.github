@@ -108,7 +108,7 @@ jobs:
             body: ${{ steps.create-release-notes.outputs.release-notes }}
 
       - name: Revert commits on failure
-        if: ${{ failure() && ${{ env.IS_PUSHED }} }}
+        if: ${{ failure() && env.IS_PUSHED }}
         run: |
           git revert $(git rev-parse HEAD)
           git push
