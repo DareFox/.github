@@ -1,0 +1,7 @@
+{
+    "name": "Create update for SuperBLT mod via version change",
+    "description": "Triggers manually",
+    "categories": [
+        "Lua"
+    ]
+}
