@@ -10,7 +10,7 @@ on:
         type: string
         default: $default-branch
       release_title:
-        descirption: "Title for release. Will be used in format %RELEASE_NAME% %MOD_VERSION%"
+        description: "Title for release. Will be used in format %RELEASE_NAME% %MOD_VERSION%"
         required: true
         type: string
         default: "Update"
